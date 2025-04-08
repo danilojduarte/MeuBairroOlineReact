@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css'; // Importando o CSS do componente
-import logo from '../../assets/logo.png'; // Substitua pelo caminho da sua logo
-import { FaWhatsapp } from 'react-icons/fa'; // Ícone do WhatsApp
+import logo from '../../assets/logo-app.png'; // Substitua pelo caminho da sua logo
+// import { FaWhatsapp } from 'react-icons/fa'; // Ícone do WhatsApp
 
 const Navbar = () => {
   return (
@@ -21,11 +21,11 @@ const Navbar = () => {
       </nav>
 
       {/* Botão do WhatsApp */}
-      <div className="whatsapp-button">
+      {/* <div className="whatsapp-button">
         <a href="https://wa.me/5599999999999" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp size={24} />
         </a>
-      </div>
+      </div> */}
     </header>
   );
 };
